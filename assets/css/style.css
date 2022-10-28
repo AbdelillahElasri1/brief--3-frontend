@@ -429,7 +429,7 @@ ul li a:hover{
     display: flex;
     align-items: center;
     gap: 2rem;
-    background: #eee;
+    /* background: #eee; */
     width: fit-content;
     border-radius: 1px;
 }
@@ -439,7 +439,7 @@ ul li a:hover{
 }
 
 .menu .reciept {
-    background-image: linear-gradient(to bottom, green , yellow);
+    background-image: linear-gradient(to bottom, rgb(239, 226, 86) , yellow);
     width: 100%;
 }
 
@@ -465,7 +465,7 @@ ul li a:hover{
 .test-menu .test-menu-container{
     display: flex;
     gap: 2rem;
-    background-color: #eee;
+    /* background-color: #eee; */
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
@@ -483,7 +483,7 @@ ul li a:hover{
 .test-jus .test-jus-container{
     display: flex;
     gap: 2rem;
-    background-color: #eee;
+    /* background-color: #eee; */
     align-items: center;
     flex-wrap: wrap;
     gap: 3rem;
@@ -587,3 +587,78 @@ ul li a:hover{
     padding-bottom: 70px;
     margin-top: 10px;
 }
+
+/* page about us avec modefication */
+section .about-mini-container{
+    background-image: url("../images/burger-image.png") !important;
+    height: 434px;
+}
+.about-mini-container .about-header{
+    color: #fff;
+    text-align: center;
+    padding-top: 15%;
+}
+.about-mini-container .about-header .about-us_header{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.about-mini-container .about-header .about-us_parag{
+    padding-top: 20px;
+}
+.text1_about{
+    display: flex;
+}
+.text1_about .text1-1_about{
+    padding: 10%;
+    text-align: center;
+    text-align: left;
+}
+.modi {
+    padding-top: 20px;
+}
+.modi-h{
+    text-align: center;
+}
+.img1{
+    /* padding-top: 40px; */
+    /* border: none; */
+    padding: 15px;
+    border-radius: 50px;
+    /* padding-left: 10px; */
+}
+.img2{
+    padding: 10px;
+    border-radius: 50px;
+}
+.text2-about{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text2-about .parag-text2{
+    text-align: center;
+    padding: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.text2-about h1{
+    padding-top: 40px;
+}
+.p-about{
+    padding-top: 20px;
+}
+.team1-container{
+    display: flex;
+    gap: 5rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.groop{
+    display: flex;
+    flex-direction: column;
+}
+
